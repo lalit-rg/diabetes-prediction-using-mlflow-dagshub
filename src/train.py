@@ -13,7 +13,7 @@ import mlflow
 
 os.environ['MLFLOW_TRACKING_URI']="https://dagshub.com/mydumpemail26/mlpipeline.mlflow"
 os.environ['MLFLOW_TRACKING_USERNAME']="mydumpemail26"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="66e90d7f4dfef4fa0ba7e884e1f3ed3872ba85ff"
+os.environ["MLFLOW_TRACKING_PASSWORD"]=""
 
 def hyperparameter_tuning(X_train,y_train,param_grid):
     rf=RandomForestClassifier()
